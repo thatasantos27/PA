@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main(){
+	int n;
+	printf("digite uma idade :");
+	scanf("%d",&n);
+	
+	if (n>0)
+    {
+		printf("positivo");
+	}
+	else 
+	{
+		if(n<0)
+     {
+        printf("negativo");
+	 }
+	 else
+ 	 {
+     	printf("nulo");	
+	 }
+    }
+}
